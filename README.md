@@ -1,4 +1,4 @@
-# Tweets_Dataset_for_Sarcasm_detection_in_Hindi
+# Sarcasm detection in Hindi Language
 <img src="https://img.shields.io/github/last-commit/pragyakatyayan/Tweets_Dataset_for_Sarcasm_detection_in_Hindi" alt="last-commit"> <img src="https://img.shields.io/badge/pandas-v0.24.2-yellow" alt="pandas"> <img src="https://img.shields.io/badge/tweepy-v3.8.0-orange" alt="tweepy"> <img src="https://img.shields.io/badge/textblob-v0.15.3-red" alt="textblob">
 
 Raw dataset having over 16000 tweets (including both sarcastic and non-sarcastic) for researchers aspiring to work on Sarcasm Detection in Hindi.
@@ -12,7 +12,15 @@ These tweets were extracted using tweet scrapping code from the Github repositor
 It was tweaked to extract tweets in native Hindi and of specific hashtags.
 The dataset has tweets for the duration 01-01-2012 to 23-06-2020.
 
-Method #1: Run the `scrap_tweets_in_Hindi-v1.py` file via IDLE or Jupyter Notebook to re-scrap tweets from twitter.   
-Method #2: Just download the Jupyter Notebook and run all the cells!   
+## Dataset
+'Sarcasm_Hindi_Tweets-SARCASTIC.csv' and 'Sarcasm_Hindi_Tweets-NON-SARCASTIC.csv' - These are the dataset used for DS340 Parent Paper
 
-P.S. If you are around, I won't mind if you star the repository! Thanks ;-)
+Link to dataset Kaggle: https://www.kaggle.com/datasets/pragyakatyayan/hindi-tweets-dataset-for-sarcasm-detection
+
+## Code
+
+'Code_Testing_1.ipynb' and 'Code_Testing_2.ipynb' - From Data Cleaning to Implementation for the Sarcasm detection
+
+## Original Paper
+
+Link to original paper: chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://aclanthology.org/2020.wnut-1.2.pdf
